@@ -4,3 +4,5 @@ serviceAccountKey.json
 .DS_Store
 .idea/
 __pycache__/
+mock_gps_coordinates.txt
+useful_resources
