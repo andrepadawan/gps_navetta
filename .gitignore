@@ -6,3 +6,4 @@ serviceAccountKey.json
 __pycache__/
 mock_gps_coordinates.txt
 useful_resources
+navetta-*
