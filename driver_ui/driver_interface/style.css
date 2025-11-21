@@ -1,0 +1,44 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.screen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100vh;
+  background-color: whitesmoke;
+  align-items: center;
+}
+.btn {
+    padding: 20px 40px;       /* Grandezza */
+    font-size: 1.5rem;        /* Testo leggibile */
+    border: none;             /* Via quel bordo grigio anni '90 */
+    border-radius: 15px;      /* Arrotondiamo */
+    color: white;             /* Testo bianco */
+    cursor: pointer;          /* Manina quando passi sopra */
+    transition: transform 0.1s, box-shadow 0.2s; /* Animazioni per sembrare "Pro" */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Un po' di profondità */
+}
+
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.start_button {
+    background-color: #2ecc71; /* Un verde meno "pugno in un occhio" del green standard */
+}
+
+.start_button:hover {
+    background-color: #27ae60; /* Verde più scuro al passaggio */
+}
+
+.end_button {
+    background-color: #e74c3c; /* Un rosso più elegante */
+}
+
+.end_button:hover {
+    background-color: #c0392b; /* Rosso più scuro al passaggio */
+}
